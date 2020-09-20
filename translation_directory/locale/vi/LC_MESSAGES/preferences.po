@@ -1,0 +1,454 @@
+# SLIMBOOK BATTERY
+# Copyright (C) 2019
+# This file is distributed under the same license as the SLIMBOOK BATTERY package.
+# SLIMBOOK <dev@slimbook.es>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SLIMBOOK BATTERY 3.2beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-20 13:22:44+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Cao Nguyên <intansemc2@gmail.com>\n"
+"Language-Team: None\n"
+"Language: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: preferences.py:41
+msgid "strdialogtitle"
+msgstr "Tùy chọn Slimbook Battery"
+
+#: preferences.py:45
+msgid "strrestorebutton"
+msgstr "Khôi phục mặc định"
+
+#: preferences.py:64
+msgid "strprintwindowsize"
+msgstr "Đã thoát khỏi chế độ toàn màn hình"
+
+#: preferences.py:84
+msgid "strprintancho"
+msgstr "Chiều rộng: "
+
+#: preferences.py:84
+msgid "strprintalto"
+msgstr " Chiều cao: "
+
+#: preferences.py:86 preferences.py:94
+msgid "strpagegeneral"
+msgstr "Tổng quát"
+
+#: preferences.py:104 preferences.py:112
+msgid "strpagecycles"
+msgstr "Chu kỳ"
+
+#: preferences.py:122 preferences.py:130 preferences.py:240 preferences.py:2901
+msgid "strenergysaving"
+msgstr "Tiết kiệm năng lượng"
+
+#: preferences.py:140 preferences.py:148 preferences.py:241 preferences.py:2906
+msgid "strbalanced"
+msgstr "Bình thường"
+
+#: preferences.py:158 preferences.py:166 preferences.py:242 preferences.py:2908
+msgid "strmaximumperformance"
+msgstr "Hiệu xuất tối đa"
+
+#: preferences.py:176 preferences.py:184
+msgid "strpagebattery"
+msgstr "Pin"
+
+#: preferences.py:194 preferences.py:202
+msgid "strpageinfo"
+msgstr "Thông tin"
+
+#: preferences.py:211
+msgid "strswitchonoff"
+msgstr "Bật / Tắt nguồn:"
+
+#: preferences.py:223
+msgid "strswitchautostart"
+msgstr "Tự động khởi động:"
+
+#: preferences.py:235
+msgid "strselectmode"
+msgstr "Chế độ năng lượng thực tế:"
+
+#: preferences.py:264
+msgid "strworkingmode"
+msgstr "Chế độ làm việc trong trường hợp không thể xác định loại nguồn điện:"
+
+#: preferences.py:282
+msgid "striconapp"
+msgstr "Icon trong thanh taskbar (cần khởi động lại ứng dụng):"
+
+#: preferences.py:292
+msgid "strhelpiconapp"
+msgstr "Lưu ý: Nếu bạn chọn tự động khởi động ứng dụng và ẩn icon, ứng dụng sẽ được thực thi với icon bị ẩn (sau khi bạn khởi động lại hệ thống)"
+
+#: preferences.py:309
+msgid "strhibernate"
+msgstr "Chuyển sang chế độ ngủ sau 3 giờ không hoạt động:"
+
+#: preferences.py:325 preferences.py:773 preferences.py:1228
+msgid "strtitlebatparams"
+msgstr "Các tùy chọn của chế độ (vô hiệu hóa khi bạn kết nối nguồn AC):"
+
+#: preferences.py:335 preferences.py:782 preferences.py:1237
+msgid "strlimitcpu"
+msgstr "Giới hạn cấu hình CPU:"
+
+#: preferences.py:345 preferences.py:792 preferences.py:1247
+msgid "strlimitcputooltip"
+msgstr "Lưu ý: Thiết lập này ảnh hưởng đến hiệu xuất máy tính"
+
+#: preferences.py:354 preferences.py:801 preferences.py:1256
+#: preferences.py:2950 preferences.py:3084 preferences.py:3265
+msgid "strmaximumlimitcpu"
+msgstr "giới hạn ở mức tối đa"
+
+#: preferences.py:355 preferences.py:802 preferences.py:1257
+#: preferences.py:2953 preferences.py:3087 preferences.py:3268
+msgid "strmediumlimitcpu"
+msgstr "giới hạn ở mức trung bình"
+
+#: preferences.py:356 preferences.py:803 preferences.py:1258
+#: preferences.py:2956 preferences.py:3090 preferences.py:3271
+msgid "strnonelimitcpu"
+msgstr "không giới hạn"
+
+#: preferences.py:371 preferences.py:819 preferences.py:1273
+msgid "strgovernorcpu"
+msgstr "Cấu hình bộ điều khiển tỷ lệ CPU:"
+
+#: preferences.py:390 preferences.py:845 preferences.py:1299
+msgid "strgraphicssaving"
+msgstr "Cấu hình card đồ họa (Nvidia/AMD/Intel):"
+
+#: preferences.py:407 preferences.py:862 preferences.py:1316
+msgid "strsoundsaving"
+msgstr "Cấu hình âm thanh:"
+
+#: preferences.py:417 preferences.py:872 preferences.py:1326
+msgid "strsoundtooltip"
+msgstr "Lúu ý: thiết lập này có thể gây ra tiếng lách cách nhẹ trong đầu ra âm thanh"
+
+#: preferences.py:438 preferences.py:893 preferences.py:1347
+msgid "strwifisaving"
+msgstr "Cấu hình Wi-Fi:"
+
+#: preferences.py:448 preferences.py:903 preferences.py:1357
+msgid "strwifisavingtooltip"
+msgstr "Lưu ý: tiết kiệm điện có thể gây ra liên kết wifi không ổn định."
+
+#: preferences.py:467 preferences.py:922 preferences.py:1376
+msgid "strbluetoothniu"
+msgstr "Tắt Bluetooth khi không sử dụng:"
+
+#: preferences.py:482 preferences.py:937 preferences.py:1391
+msgid "strwifiniu"
+msgstr "Tắt Wi-Fi khi không sử dụng:"
+
+#: preferences.py:498 preferences.py:953 preferences.py:1407
+msgid "strpersistentparams"
+msgstr "Những thay đổi khác:"
+
+#: preferences.py:507 preferences.py:962 preferences.py:1416
+msgid "strbrightness"
+msgstr "Độ sáng màn hình:"
+
+#: preferences.py:517 preferences.py:972 preferences.py:1426
+msgid "strbirghtnesstooltip"
+msgstr "Lưu ý: tùy chọn này giảm mức tiêu thụ pin đáng kể"
+
+#: preferences.py:539 preferences.py:995 preferences.py:1449
+msgid "strbluetoothdbos"
+msgstr "Bluetooth không boot khi bật máy:"
+
+#: preferences.py:554 preferences.py:1010 preferences.py:1464
+msgid "strwifidbos"
+msgstr "Wi-Fi không boot khi bật máy:"
+
+#: preferences.py:569 preferences.py:1025 preferences.py:1479
+msgid "strwifionlanconn"
+msgstr "Tắt Wi-Fi khi kết nối với mạng LAN:"
+
+#: preferences.py:586 preferences.py:1042 preferences.py:1496
+msgid "strautosuspendusb"
+msgstr "Tự động tắt các cổng USB (USB autosuspend):"
+
+#: preferences.py:596 preferences.py:1052 preferences.py:1506
+msgid "strautosuspendusbtooltip"
+msgstr "Lưu ý: Đặt chế độ tự động sử dụng cho tất cả các thiết bị USB khi khởi động hệ thống hoặc thay đổi nguồn điện. Các thiết bị đầu vào như chuột và bàn phím cũng như máy quét bị loại trừ theo mặc định"
+
+#: preferences.py:618 preferences.py:1073 preferences.py:1528
+msgid "strexcludedusbids"
+msgstr "ID USB ngoại lệ:"
+
+#: preferences.py:647 preferences.py:1102 preferences.py:1557
+msgid "strexcludedusbtooltip"
+msgstr "Lưu ý: Bạn cần ghi vào danh sách các USB IDs (ngăn cách nhau bằng dấu cách) để thực thi khi autosuspend"
+
+#: preferences.py:671 preferences.py:1126 preferences.py:1581
+msgid "strusbexcludebluetooth"
+msgstr "Cho phép thiết bị Bluetooth hoạt động trong chế độ USB autosuspend:"
+
+#: preferences.py:691 preferences.py:1146 preferences.py:1601
+msgid "strusbexcludephone"
+msgstr "Cho phép thiết bị Điện thoại hoạt động trong chế độ USB autosuspend:"
+
+#: preferences.py:711 preferences.py:1166 preferences.py:1621
+msgid "strusbexcludeprinter"
+msgstr "Cho phép thiết bị Máy In hoạt động trong chế độ USB autosuspend:"
+
+#: preferences.py:731 preferences.py:1186 preferences.py:1641
+msgid "strusbexcludeethernet"
+msgstr "Cho phép các thiết bị Enternet hoạt động trong chế độ  USB autosuspend:"
+
+#: preferences.py:751 preferences.py:1206 preferences.py:1661
+msgid "strusbautosuspenddisshutdown"
+msgstr "Tắt chế độ USB autosuspend khi tắt máy:"
+
+#: preferences.py:1680
+msgid "strswitchcyclealerts"
+msgstr "Bật / Tắt các cảnh báo chu kỳ:"
+
+#: preferences.py:1692
+msgid "strmaxbatval"
+msgstr "Phần trăm pin tối đa:"
+
+#: preferences.py:1708
+msgid "strminbatval"
+msgstr "Phần trăm pin tối thiểu:"
+
+#: preferences.py:1724
+msgid "strnumoftimes"
+msgstr "Số lần:"
+
+#: preferences.py:1740
+msgid "strtimebwnwarnings"
+msgstr "Thời gian giữa các cảnh báo:"
+
+#: preferences.py:1775
+msgid "strbatdevice"
+msgstr "Thiết bị pin:"
+
+#: preferences.py:1784
+msgid "strmanufacturer"
+msgstr "Nhà sản xuất:"
+
+#: preferences.py:1793
+msgid "strbatmodel"
+msgstr "Mẫu pin:"
+
+#: preferences.py:1802
+msgid "strtechnology"
+msgstr "Công nghệ pin:"
+
+#: preferences.py:1811
+msgid "strremainbat"
+msgstr "Phần trăm pin hiện tại:"
+
+#: preferences.py:1820
+msgid "strmaxcapacity"
+msgstr "Phần trăm pin tối đa:"
+
+#: preferences.py:1829
+msgid "strstatusbat"
+msgstr "Trang thái pin:"
+
+#: preferences.py:1839 preferences.py:1849
+msgid "strtimetofullbat"
+msgstr "Thời gian sạc đầy pin:"
+
+#: preferences.py:1844
+msgid "strtimetoemptybat"
+msgstr "Thời gian sử dụng pin:"
+
+#: preferences.py:1854
+msgid "strtimetofullemptybat"
+msgstr "Thời gian sạc đầy pin/sử dụng pin:"
+
+#: preferences.py:1863
+msgid "strrechargeablebat"
+msgstr "Có thể sạc lại pin:"
+
+#: preferences.py:1872
+msgid "strpowersupplybat"
+msgstr "Nguồn điện:"
+
+#: preferences.py:1881
+msgid "strenergyfullbat"
+msgstr "Điện năng khi đầy:"
+
+#: preferences.py:1890
+msgid "strenergyfulldesignbat"
+msgstr "Điện năng khi đầy theo thiết kế:"
+
+#: preferences.py:1899
+msgid "strenergyratebat"
+msgstr "Tỷ lệ năng lượng:"
+
+#: preferences.py:1908
+msgid "strvoltagebat"
+msgstr "Điện áp:"
+
+#: preferences.py:1917
+msgid "strlastupdatebat"
+msgstr "Lần cập nhật thông tin pin cuối cùng:"
+
+#: preferences.py:1942
+msgid "strslimbookbatdesc1"
+msgstr "Slimbook Battery là một ứng dụng tối ưu hóa pin dàng cho các thiết bị di động và có thể tăng thời gian sử dụng pin "
+
+#: preferences.py:1942
+msgid "strslimbookbatdesc2"
+msgstr "lên đến 50%. Với mục đích này, phần mềm của bên thứ ba được sử dụng để quản lý và cấu hình tài nguyên hệ thống."
+
+#: preferences.py:1947
+msgid "strslimbookbatthanks"
+msgstr "Chân thành cảm ơn TLP (© 2019, linrunner), Nvidia, AMD và Intel đã cung cấp cho chúng tôi những công cụ cần thiết để hoàn thiện ứng dụng này!"
+
+#: preferences.py:1952
+msgid "strslimbookbatsocialnetworks"
+msgstr "Nếu ứng dụng này hữu ích với bạn, hãy cân nhắc việc chia sẻ chúng lên mạng xã hội hoặc thậm chí mua SLIMBOOK;)"
+
+#: preferences.py:2002
+msgid "stradvice1"
+msgstr "THÔNG BÁO QUAN TRỌNG:"
+
+#: preferences.py:2002
+msgid "stradvice2"
+msgstr " Nếu bạn có bất kỳ phần mềm, tiện ích hoặc ứng dụng nào thay đổi cấu hình CPU, tối ưu hóa pin hoặc tương tự, "
+
+#: preferences.py:2002
+msgid "stradvice3"
+msgstr "điều đó có thể ảnh hưởng đến hoạt động của ứng dụng này. Bạn sẽ tự chịu trách nhiệm."
+
+#: preferences.py:2015
+msgid "strvisitwebsite"
+msgstr "Ghé thăm trang web của SLIMBOOK"
+
+#: preferences.py:2019
+msgid "strurlwebsite"
+msgstr "https://slimbook.es/en/tutoriales/aplicaciones-slimbook/398-slimbook-battery-3-application-for-optimize-battery-of-your-laptop"
+
+#: preferences.py:2019
+msgid "strvisittutorial"
+msgstr "Hướng dẫn sử dụng Slimbook Battery"
+
+#: preferences.py:2024
+msgid "straditionalinfo1"
+msgstr "Thông tin:"
+
+#: preferences.py:2024
+msgid "straditionalinfo2"
+msgstr "Liên hệ với chúng tôi nếu bạn tìm thấy điều gì đó sai. Chúng tôi đánh giá cao việc bạn đính kèm tệp được tạo "
+
+#: preferences.py:2024
+msgid "straditionalinfo3"
+msgstr "bằng cách nhấp vào nút bên dưới"
+
+#: preferences.py:2035
+msgid "strsendemail"
+msgstr "Gửi e-mail đến: "
+
+#: preferences.py:2041
+msgid "strcopyemail"
+msgstr "Sao chép e-mail"
+
+#: preferences.py:2048
+msgid "strgeneratereport"
+msgstr "Tạo file báo cáo"
+
+#: preferences.py:2053
+msgid "strwarranty"
+msgstr "Phần mềm được cung cấp \"nguyên trạng\", không có bảo hành dưới bất kỳ hình thức nào."
+
+#: preferences.py:2058
+msgid "strlicense1"
+msgstr "Bạn được quyền:"
+
+#: preferences.py:2058
+msgid "strlicense2"
+msgstr "Chia sẻ:"
+
+#: preferences.py:2058
+msgid "strlicense3"
+msgstr " --sao chép và phân phối lại tài liệu ở bất kỳ phương tiện hoặc định dạng nào"
+
+#: preferences.py:2058
+msgid "strlicense4"
+msgstr "Slimbook Copyright - License Creative Commons BY-NC-ND"
+
+#: preferences.py:2081 preferences.py:2089 preferences.py:2097
+#: preferences.py:2105 preferences.py:2113 preferences.py:2121
+#: preferences.py:2129 preferences.py:2138 preferences.py:2145
+#: preferences.py:2149 preferences.py:2157 preferences.py:2165
+#: preferences.py:2173 preferences.py:2181 preferences.py:2189
+#: preferences.py:2197 preferences.py:2209
+msgid "strunknown"
+msgstr "Không xác định"
+
+#: preferences.py:2136 preferences.py:2143
+msgid "strhours"
+msgstr " giờ"
+
+#: preferences.py:2147
+msgid "strfullychargedbat"
+msgstr "Đã sạc đầy"
+
+#: preferences.py:2222
+msgid "strprintreportfilecheck1"
+msgstr "File báo cáo đã được tạo"
+
+#: preferences.py:2224
+msgid "strprintreportfilecheck2"
+msgstr "File Báo cáo bị hủy, mật khẩu sai"
+
+#: preferences.py:2226
+msgid "strprintreportfilecheck3"
+msgstr "File Báo cáo bị hủy"
+
+#: preferences.py:2233
+msgid "strprintemailcopied"
+msgstr "Email đã được sao chép vào khay nhớ tạm"
+
+#: preferences.py:2246 preferences.py:3377
+msgid "stralertdialog"
+msgstr "Thông báo!"
+
+#: preferences.py:2248
+msgid "strmessagerestoredefaultvalues"
+msgstr "Bạn có muốn khôi phục các giá trị mặc định không?"
+
+#: preferences.py:2294
+msgid "strprintrestorevaluescancel"
+msgstr "Khôi phục đã bị hủy"
+
+#: preferences.py:3285
+msgid "strcurrentmode"
+msgstr "Chế độ hiện tại : "
+
+#: preferences.py:3286
+msgid "strprintautostart"
+msgstr "Tự động khởi động: "
+
+#: preferences.py:3288
+msgid "strprintappstatus"
+msgstr "Bật tắt: "
+
+#: preferences.py:3379
+msgid "strmessagenvidia1"
+msgstr "Các thay đổi đã được áp dụng, nhưng cần phải khởi động lại để một số thay đổi có hiệu lực. "
+
+#: preferences.py:3379
+msgid "strmessagenvidia2"
+msgstr "Bạn có muốn khởi động lại không?"
+
+#: preferences.py:3384
+msgid "strprintresponsenvidia"
+msgstr "Hệ thống sẽ không khởi động lại"
