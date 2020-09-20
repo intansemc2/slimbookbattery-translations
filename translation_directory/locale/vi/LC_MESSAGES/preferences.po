@@ -19,7 +19,7 @@ msgstr ""
 
 #: preferences.py:41
 msgid "strdialogtitle"
-msgstr "Tùy chọn Slimbook Battery"
+msgstr "Tùy chọn Pin Slimbook"
 
 #: preferences.py:45
 msgid "strrestorebutton"
